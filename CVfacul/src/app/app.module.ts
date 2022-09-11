@@ -7,6 +7,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { FormacaoComponent } from './components/formacao/formacao.component';
 import { ExperienciasComponent } from './components/experiencias/experiencias.component';
 import { ConhecimentoComponent } from './components/conhecimento/conhecimento.component';
+import { ContatoComponent } from './components/contato/contato.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ConhecimentoComponent } from './components/conhecimento/conhecimento.co
     BlogComponent,
     FormacaoComponent,
     ExperienciasComponent,
-    ConhecimentoComponent
+    ConhecimentoComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
